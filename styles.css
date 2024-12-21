@@ -188,8 +188,58 @@ h2{
 }
 
 @media only screen and (max-width: 1000px){
-    body{
-        display: none;
+    .container{
+        height: auto;
+    }
+    .container img{
+        position: unset;
+        width: auto;
+    }
+
+    .container h1,p{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .container h1{
+        font-size: 40px;
+        width: auto;
+    }
+
+    .container2{
+        height: auto;
+    }
+
+    .container2 img{
+        position: unset;
+        width: 350px;
+    }
+
+    .container2 h1{
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .container3{
+        height: auto;
+    }
+
+    .container3 img{
+        position: unset;
+    }
+
+    .container3 h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .container3 h2{
+        width: auto;
+    }
+
+    .container4 h1{
+        font-size: 2.3rem;
+        text-align: center;
     }
 
 }
